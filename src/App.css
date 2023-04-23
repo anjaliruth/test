@@ -1,38 +1,120 @@
-.App {
+body {
+  background-color: #0F4C5C;
+}
+
+h1{
   text-align: center;
+  color: #E0D3DE;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ p {
+font-size: 35px;
+
+  color: #D7FCD4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.quote-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.quote {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200%;
+  width: 1000px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+input {
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #FF6978;
+  color:  #D7FCD4;
+}
+
+.inListButton {
+  border-radius: 20px;
+  border: none;
+  margin-top: 15px;
+  padding:5px;
+  background-color:#D7FCD4;
+  color:#FF6978;
+  font-size: 20px;
+  gap: 50px;
+
+}
+button {
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 10px;
+  padding:10px;
+  background-color:#D7FCD4;
+  color:#FF6978;
+  font-size: 20px;
+
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 10px;
+}
+
+.application {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 10px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #D7FCD4;
+  font-size: 30px;
+}
+
+
+.quote-text{
+  margin-bottom: 10px;
+}
+
+.quote-author{
+  margin-top: 0;
+font-size: 30px;
+color: #B68F40;
+}
+
+.quote-button{
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
