@@ -38,7 +38,7 @@ function removeFromList(i) {
       <h1>To Do List</h1>
       <Quote />
       <Input addToList={addToList} clearList = {clearList}/>
-      <p>Tasks to do: {list.length}</p>
+      <p className = "taskCount">Tasks to do: {list.length}</p>
 
       {/* Dont need to pass the function with arguments because it will only be called later at which point it will be passed the argument */}
       <List list = {list} decreasePriority={decreasePriority} increasePriority={increasePriority} removeFromList={removeFromList} className="list"/>

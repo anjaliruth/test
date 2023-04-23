@@ -24,6 +24,11 @@ font-size: 35px;
   height: 100px;
 }
 
+.taskCount {
+  margin:0;
+  padding-top: 0;
+}
+
 .quote {
   text-align: center;
   display: flex;
@@ -89,8 +94,10 @@ button {
   justify-content: center;
   flex-grow: 1;
   gap: 10px;
-  margin-left: 100px;
+  margin-left: 240px;
   margin-top: 70px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .list {
