@@ -7,6 +7,9 @@ import Quote from "./components/QuoteDisplay"
 function App() {
   const [list, setList] =useState([]);
 
+  function addToList(text) {
+setList([...list, text])
+  }
   function clearList () {
     setList([]);
   }
@@ -26,9 +29,6 @@ function App() {
   }
 
 
-  function addToList(text) {
-setList([...list, text])
-  }
 function removeFromList(i) {
   setList([...list.slice(0 ,i), ...list.slice(i + 1)]);
   }
